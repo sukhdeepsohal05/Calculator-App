@@ -64,7 +64,7 @@ keys.forEach(key=>{
         } else{
             if (result.textContent == 0) { result.textContent = ''; }
             if (result.textContent.length < 15) {
-                if (key.textContent == 'X') {
+                if (key.textContent == '×') {
                     result.textContent += '*';
                 } else {
                     result.textContent += key.textContent;
